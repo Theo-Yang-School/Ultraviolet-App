@@ -9,6 +9,7 @@
 	},
 	"scripts": {
 		"start": "node src/index.js",
+		"stop": "echo 'Stopping app...'",
 		"format": "prettier --config .prettierrc.js --write .",
 		"lint": "eslint ./src/",
 		"lint:fix": "eslint ./src/ --fix"
